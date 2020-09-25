@@ -4,8 +4,8 @@ io tracer 설치는 Install IOtracer on Centos8.docx 파일을 참고하여 주�
 
 
 ### step1. 
-git clone https://github.com/netdb407/skh_project_ver2
-  *lfs를 사용하여 업로드한 파일은 다운로드 시 사용자 계정 로그인이 필요합니다.
+git clone https://github.com/netdb407/skh_project_ver2  
+*lfs를 사용하여 업로드한 파일은 다운로드 시 사용자 계정 로그인이 필요합니다.
 
 
 ### step2.
