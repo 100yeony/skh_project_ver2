@@ -9,7 +9,7 @@ git clone https://github.com/netdb407/skh_project_ver2
 
 
 ## step2.
-lfs.tar.gz 압축 해제
+lfs.tar.gz, orientdb.tar.gz 압축 해제
 
 ## step3.
 설치환경에 맞게 InstallConfig 파일 수정
