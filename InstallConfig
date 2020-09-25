@@ -1,0 +1,57 @@
+#  [project directory]
+server_homedir = /root/ssdStorage/skh_project
+node_homedir = /root/ssdStorage
+
+
+# [cluster info (,뒤에 띄어쓰기 안함)]
+server_IP = 203.255.92.192
+nodes_IP = 203.255.92.193,203.255.92.194,203.255.92.195
+nodetool_IP = 203.255.92.193
+
+
+
+# [server directory]
+server_install_dir = /root/ssdStorage/skh_project/package/
+server_WLgenerate_dir = WorkloadGenerator/bin/
+server_file1_dir = YCSB/workloads/
+server_file2_dir = Graph/workloads/
+server_file3_dir = Graph/result/
+
+
+# [node directory]
+node_install_dir = /root/ssdStorage/skh_project/package/
+
+
+# [ycsb(in server)]
+ycsb_exporter = site.ycsb.measurements.exporter.JSONArrayMeasurementsExporter
+ycsb_exportfile_dir = /root/ssdStorage/skh_project/YCSB_RESULT
+
+
+# [IO Tracer]
+IO_output_dir = /home/skh/IO_OUTPUT
+IO_driverManager_dir = /home/DeviceDriver/drive-manager
+IO_tracer_dir = /root/iotracer
+IO_watch_dir = /root/ssdStorage
+
+
+# [package]
+java_version = 1.8.0
+python_version = 2.7
+maven_version = 5.3.0
+
+
+# [cassandra]
+#cassandra_version = apache-cassandra-3.11.5
+server_cassandra_dir = /root/ssdStorage/skh_project/
+node_cassandra_dir = /root/ssdStorage/cassandra
+
+#update_configuration_path_server
+update_conf_path = /root/ssdStorage/skh_project/Update/
+
+
+# [orientdb]
+nosqltests_result_dir = /home/skh/NOSQLTESTS_RESULT
+
+
+# [arangodb]
+node_arangodb_data_dir = /root/ssdStorage/arangodb_cluster
