@@ -1,5 +1,5 @@
 #  [project directory]
-server_homedir = /root/ssdStorage/skh_project
+server_homedir = /home/skh/skh_project_ver2
 node_homedir = /root/ssdStorage
 
 
@@ -11,15 +11,10 @@ nodetool_IP = 203.255.92.193
 
 
 # [server directory]
-server_install_dir = /root/ssdStorage/skh_project/package/
 server_WLgenerate_dir = WorkloadGenerator/bin/
 server_file1_dir = YCSB/workloads/
 server_file2_dir = Graph/workloads/
 server_file3_dir = Graph/result/
-
-
-# [node directory]
-node_install_dir = /root/ssdStorage/skh_project/package/
 
 
 # [ycsb(in server)]
@@ -42,11 +37,8 @@ maven_version = 5.3.0
 
 # [cassandra]
 #cassandra_version = apache-cassandra-3.11.5
-server_cassandra_dir = /root/ssdStorage/skh_project/
+server_cassandra_dir = /home/skh/skh_project_ver2
 node_cassandra_dir = /root/ssdStorage/cassandra
-
-#update_configuration_path_server
-update_conf_path = /root/ssdStorage/skh_project/Update/
 
 
 # [orientdb]
